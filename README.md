@@ -7,5 +7,6 @@ you pick a number from 0 to 36.
 
 just run the python file
 
-eg: 
-# $python3 game.py
+#eg:
+
+$python3 game.py
