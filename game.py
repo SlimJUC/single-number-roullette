@@ -1,6 +1,6 @@
 from random import randint
     
-print("============================================")
+print("=============================")
 
 print("""        
         
@@ -11,14 +11,14 @@ print("""
         
         The program will tell you if you guessed the correct number
         
-=============================================
+================================
 
         """ )
 
 cont = input("Press enter to continue....") 
 print(" ================================ ")
 user_credit = int(input("Buy In Credit: "))
-print(" ================================== ")
+print(" ================================ ")
 
 def Roulette():
 
