@@ -3,19 +3,16 @@ from random import randint
 print("============================================")
 
 print("""        
-        
         Welcome to single number Roulette
 
-        You will be asked to pick a number from 0 to 36
+        Each try costs 1 credit from the BUY-IN credit balance
         
-        
-        The program will tell you if you guessed the correct number
-        
+        If you hit the correct number you will be credited + 36 credits
 =============================================
 
         """ )
 
-cont = input("Press enter to continue....") 
+cont = input("Press enter to start the game....") 
 print(" ================================ ")
 user_credit = int(input("Buy In Credit: "))
 print(" ================================== ")
