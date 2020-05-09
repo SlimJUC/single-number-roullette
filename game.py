@@ -15,7 +15,7 @@ print("""
 
         """ )
 
-cont = input("Press enter to continue....")
+cont = input("Press enter to continue....") 
 print(" ================================ ")
 user_credit = int(input("Buy In Credit: "))
 print(" ================================== ")
@@ -26,6 +26,7 @@ def Roulette():
     global user_credit
     if user_credit <= 0:
         print(" You do not have enough credits to play ")
+        exit()
     else:
         
        user_num = int(input("Enter a number from 0 to 36: "))
@@ -48,15 +49,9 @@ def Roulette():
             Roulette()
         elif again == "no":
             print("Thank you for playing...")
+            exit()
         else:
             print("write 'yes' or 'no' no CAPS")   
 
 Roulette()
 print("============================================")
-
-
-
-    
-
- 
-
