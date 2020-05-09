@@ -37,7 +37,7 @@ def Roulette():
         user_credit += 36   
         print("""Congratulations, You guessed the correct numer!
         
-        You have been credited  36 winnings
+        You have been credited  36 credits
         
         Total Credit Available Now is: """ +str(user_credit))
 
